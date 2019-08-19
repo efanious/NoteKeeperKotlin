@@ -104,6 +104,7 @@ class NoteActivity : AppCompatActivity() {
         invalidateOptionsMenu()
     }
 
+
     @SuppressLint("NewApi")
     override fun onPrepareOptionsMenu(menu: Menu?): Boolean {
         if (notePosition >= DataManager.notes.lastIndex) {
